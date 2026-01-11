@@ -1,0 +1,17 @@
+# Core Dependencies
+torch>=2.0.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: For reading different file formats
+PyPDF2>=3.0.0          # For PDF files
+python-docx>=0.8.11    # For Word documents (.docx)
+
+# Installation command for PyTorch with CUDA support:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Or for CPU only:
+# pip install torch torchvision torchaudio
+
+# Install all:
+# pip install -r requirements.txt
